@@ -18,6 +18,8 @@ next-personal/.next
 .next/
 *.next/
 .next
+next-personal/.next/
+next-personal/*.next/
 next-personal/package.json
 next-personal/package-lock.json
 next-personal/pnpm-lock.yaml

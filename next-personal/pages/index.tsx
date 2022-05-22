@@ -1,10 +1,13 @@
 import type { NextPage } from "next";
-import { Text, Group, Title, Divider, Button } from "@mantine/core";
 import { NavBar } from "../components/shared/navbar";
+import { Footer } from "../components/shared/footer";
+import { IndexBody } from "../components/index-components/body";
 const Home: NextPage = () => {
   return (
     <div>
       <NavBar />
+      <IndexBody />
+      <Footer />
     </div>
   );
 };
