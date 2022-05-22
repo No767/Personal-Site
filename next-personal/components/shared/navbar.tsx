@@ -14,6 +14,8 @@ import {
   MdHome,
   MdOutlineCollectionsBookmark,
   MdOutlineBook,
+  MdWork,
+  MdOutlineFreeBreakfast,
 } from "react-icons/md";
 import { AiOutlineProject } from "react-icons/ai";
 import { SiGithub } from "react-icons/si";
@@ -51,10 +53,10 @@ export const NavBar: FC = () => {
                   size="md"
                   radius="lg"
                   component={NextLink}
-                  href="https://github.com/No767/Personal-Site"
+                  href="/personal"
                   target="_self"
                   styles={{ label: { color: "white" } }}
-                  leftIcon={<SiGithub />}
+                  leftIcon={<MdOutlineFreeBreakfast />}
                 >
                   Personal
                 </Button>
@@ -63,10 +65,10 @@ export const NavBar: FC = () => {
                   size="md"
                   radius="lg"
                   component={NextLink}
-                  href="https://github.com/No767/Personal-Site"
+                  href="/professional"
                   target="_self"
                   styles={{ label: { color: "white" } }}
-                  leftIcon={<SiGithub />}
+                  leftIcon={<MdWork />}
                 >
                   Professional
                 </Button>
@@ -142,10 +144,10 @@ export const NavBar: FC = () => {
               size="md"
               radius="lg"
               component={NextLink}
-              href="https://github.com/No767/Personal-Site"
+              href="/personal"
               target="_self"
               styles={{ label: { color: "white" } }}
-              leftIcon={<SiGithub />}
+              leftIcon={<MdOutlineFreeBreakfast />}
             >
               Personal
             </Button>
@@ -154,10 +156,10 @@ export const NavBar: FC = () => {
               size="md"
               radius="lg"
               component={NextLink}
-              href="https://github.com/No767/Personal-Site"
+              href="/professional"
               target="_self"
               styles={{ label: { color: "white" } }}
-              leftIcon={<SiGithub />}
+              leftIcon={<MdWork />}
             >
               Professional
             </Button>

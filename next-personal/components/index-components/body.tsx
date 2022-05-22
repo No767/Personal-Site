@@ -30,7 +30,7 @@ export const IndexBody: FC = () => {
         >
           Noelle
         </Title>
-        <Text color="white">
+        <Text color="white" align="center" mx={50}>
           Creative leader with a sense of community and room for expansion
         </Text>
 
@@ -58,7 +58,7 @@ export const IndexBody: FC = () => {
         </Group>
       </Stack>
       <Divider
-        mx={500}
+        mx={100}
         mt={50}
         sx={{
           color: "#FFFFFF",
@@ -82,7 +82,7 @@ export const IndexBody: FC = () => {
           size="xl"
           radius="lg"
           component={NextLink}
-          href="/about"
+          href="/professional"
           target="_self"
           styles={{ label: { color: "white" } }}
         >
